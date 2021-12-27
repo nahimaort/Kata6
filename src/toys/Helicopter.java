@@ -1,10 +1,10 @@
 package toys;
 
-public class Car {
+public class Helicopter {
     final private Integer serialNumber;
-    final private String type = "car";
+    final private String type = "helicopter";
 
-    public Car(Integer serialNumber) {
+    public Helicopter(Integer serialNumber) {
         this.serialNumber = serialNumber;
     }
     

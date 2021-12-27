@@ -6,6 +6,4 @@ public class SerialNumberGenerator {
     public Integer next() {
         return this.serialNumber++;
     }
-    
-    
 }
