@@ -1,15 +1,15 @@
+import branches.AmericanToyBusiness;
+import branches.AsianToyBusiness;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 import toyproduct.Toy;
-import toyproduct.models.CarToy;
-import toyproduct.models.HelicopterToy;
-import toys.ToyBusiness;
+import business.ToyBusiness;
 
 public class Main {
     
     public static void main(String[] args) {
-        ToyBusiness business = new ToyBusiness();
+        ToyBusiness business = new AsianToyBusiness();
         ArrayList<Toy> toys = new ArrayList<>();
         
         Scanner in = new Scanner(System.in);
